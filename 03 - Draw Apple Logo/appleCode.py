@@ -3,7 +3,7 @@ import turtle
 t = turtle.Turtle()
 
 t.width(10)
-t.color("silver")
+t.color("red")
 t.begin_fill()
 t.left(160)
 t.circle(100, 100)
