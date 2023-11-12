@@ -28,7 +28,8 @@ def rect():
     t.forward(170)
 
 
-def four_corner_lines():  # create a function to drawing the four corners lines left to right
+# create a function to drawing the four corners lines left to right
+def four_corner_lines():
     t.pensize(12)
     t.penup()
     t.forward(180)
@@ -53,7 +54,8 @@ def four_corner_lines():  # create a function to drawing the four corners lines 
     t.forward(12)
 
 
-def p():  # Drawing the P...
+# Drawing the P...
+def p():
     t.penup()
     t.left(180)
     t.forward(280)
@@ -69,6 +71,7 @@ def p():  # Drawing the P...
     t.forward(47)
 
 
+# Drawing the U...
 def u():
     t.penup()
     t.right(90)
@@ -82,6 +85,7 @@ def u():
     t.forward(98)
 
 
+# Drawing the B..
 def b():
     t.penup()
     t.right(90)
@@ -108,6 +112,7 @@ def b():
     t.forward(96)
 
 
+# Drawing the G..
 def g():
     t.penup()
     t.right(180)
@@ -126,8 +131,11 @@ def g():
     t.forward(40)
 
 
+# calling the rect() function...
 rect()
+# calling the four_corner_lines() function..
 four_corner_lines()
+# calling the p(), u(), b(), g() functions..
 p()
 u()
 b()
